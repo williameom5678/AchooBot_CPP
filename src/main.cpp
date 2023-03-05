@@ -1,7 +1,5 @@
 #include <dpp/dpp.h>
-
-const std::string BOT_TOKEN = "MTA4MTgyODM0NjI1NTY1OTA4OA.GKpdpc.ERyYCwzHOGkXQBggHyXGz2wO5rCjtkOE62V1AA";
-
+#include "token.h"
 
 int main() {
     dpp::cluster bot(BOT_TOKEN);
