@@ -1,0 +1,144 @@
+Performing C++ SOURCE FILE Test HAVE_SINGLE_PARAMETER_SETNAME_NP failed with the following output:
+Change Dir: /home/dikodev/bot/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_740c8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_740c8.dir/build.make CMakeFiles/cmTC_740c8.dir/build
+gmake[1]: 디렉터리 '/home/dikodev/bot/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_740c8.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_SINGLE_PARAMETER_SETNAME_NP   -o CMakeFiles/cmTC_740c8.dir/src.cxx.o -c /home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:4:36: error: invalid conversion from ‘const char*’ to ‘pthread_t’ {aka ‘long unsigned int’} [-fpermissive]
+    4 |                 pthread_setname_np("ThreadName");
+      |                                    ^~~~~~~~~~~~
+      |                                    |
+      |                                    const char*
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:4:35: error: too few arguments to function ‘int pthread_setname_np(pthread_t, const char*)’
+    4 |                 pthread_setname_np("ThreadName");
+      |                 ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:148,
+                 from /usr/include/c++/11/bits/std_thread.h:47,
+                 from /usr/include/c++/11/thread:43,
+                 from /home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/pthread.h:463:12: note: declared here
+  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+      |            ^~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_740c8.dir/build.make:78: CMakeFiles/cmTC_740c8.dir/src.cxx.o] 오류 1
+gmake[1]: 디렉터리 '/home/dikodev/bot/CMakeFiles/CMakeTmp' 나감
+gmake: *** [Makefile:127: cmTC_740c8/fast] 오류 2
+
+
+Source file was:
+
+	#include <thread>
+	int main() {
+		pthread_setname_np("ThreadName");
+		return 0;
+	}
+Performing C++ SOURCE FILE Test HAVE_SINGLE_PARAMETER_SETNAME_NP failed with the following output:
+Change Dir: /home/dikodev/bot/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19d7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19d7b.dir/build.make CMakeFiles/cmTC_19d7b.dir/build
+gmake[1]: 디렉터리 '/home/dikodev/bot/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_19d7b.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_SINGLE_PARAMETER_SETNAME_NP   -o CMakeFiles/cmTC_19d7b.dir/src.cxx.o -c /home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:4:36: error: invalid conversion from ‘const char*’ to ‘pthread_t’ {aka ‘long unsigned int’} [-fpermissive]
+    4 |                 pthread_setname_np("ThreadName");
+      |                                    ^~~~~~~~~~~~
+      |                                    |
+      |                                    const char*
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:4:35: error: too few arguments to function ‘int pthread_setname_np(pthread_t, const char*)’
+    4 |                 pthread_setname_np("ThreadName");
+      |                 ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:148,
+                 from /usr/include/c++/11/bits/std_thread.h:47,
+                 from /usr/include/c++/11/thread:43,
+                 from /home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/pthread.h:463:12: note: declared here
+  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+      |            ^~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_19d7b.dir/build.make:78: CMakeFiles/cmTC_19d7b.dir/src.cxx.o] 오류 1
+gmake[1]: 디렉터리 '/home/dikodev/bot/CMakeFiles/CMakeTmp' 나감
+gmake: *** [Makefile:127: cmTC_19d7b/fast] 오류 2
+
+
+Source file was:
+
+	#include <thread>
+	int main() {
+		pthread_setname_np("ThreadName");
+		return 0;
+	}
+Performing C++ SOURCE FILE Test HAVE_SINGLE_PARAMETER_SETNAME_NP failed with the following output:
+Change Dir: /home/dikodev/bot/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc95d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc95d.dir/build.make CMakeFiles/cmTC_bc95d.dir/build
+gmake[1]: 디렉터리 '/home/dikodev/bot/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_bc95d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_SINGLE_PARAMETER_SETNAME_NP   -o CMakeFiles/cmTC_bc95d.dir/src.cxx.o -c /home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:4:36: error: invalid conversion from ‘const char*’ to ‘pthread_t’ {aka ‘long unsigned int’} [-fpermissive]
+    4 |                 pthread_setname_np("ThreadName");
+      |                                    ^~~~~~~~~~~~
+      |                                    |
+      |                                    const char*
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:4:35: error: too few arguments to function ‘int pthread_setname_np(pthread_t, const char*)’
+    4 |                 pthread_setname_np("ThreadName");
+      |                 ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:148,
+                 from /usr/include/c++/11/bits/std_thread.h:47,
+                 from /usr/include/c++/11/thread:43,
+                 from /home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/pthread.h:463:12: note: declared here
+  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+      |            ^~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_bc95d.dir/build.make:78: CMakeFiles/cmTC_bc95d.dir/src.cxx.o] 오류 1
+gmake[1]: 디렉터리 '/home/dikodev/bot/CMakeFiles/CMakeTmp' 나감
+gmake: *** [Makefile:127: cmTC_bc95d/fast] 오류 2
+
+
+Source file was:
+
+	#include <thread>
+	int main() {
+		pthread_setname_np("ThreadName");
+		return 0;
+	}
+Performing C++ SOURCE FILE Test HAVE_SINGLE_PARAMETER_SETNAME_NP failed with the following output:
+Change Dir: /home/dikodev/bot/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a090/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a090.dir/build.make CMakeFiles/cmTC_5a090.dir/build
+gmake[1]: 디렉터리 '/home/dikodev/bot/CMakeFiles/CMakeTmp' 들어감
+Building CXX object CMakeFiles/cmTC_5a090.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_SINGLE_PARAMETER_SETNAME_NP   -o CMakeFiles/cmTC_5a090.dir/src.cxx.o -c /home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:4:36: error: invalid conversion from ‘const char*’ to ‘pthread_t’ {aka ‘long unsigned int’} [-fpermissive]
+    4 |                 pthread_setname_np("ThreadName");
+      |                                    ^~~~~~~~~~~~
+      |                                    |
+      |                                    const char*
+/home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:4:35: error: too few arguments to function ‘int pthread_setname_np(pthread_t, const char*)’
+    4 |                 pthread_setname_np("ThreadName");
+      |                 ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:35,
+                 from /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:148,
+                 from /usr/include/c++/11/bits/std_thread.h:47,
+                 from /usr/include/c++/11/thread:43,
+                 from /home/dikodev/bot/CMakeFiles/CMakeTmp/src.cxx:2:
+/usr/include/pthread.h:463:12: note: declared here
+  463 | extern int pthread_setname_np (pthread_t __target_thread, const char *__name)
+      |            ^~~~~~~~~~~~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_5a090.dir/build.make:78: CMakeFiles/cmTC_5a090.dir/src.cxx.o] 오류 1
+gmake[1]: 디렉터리 '/home/dikodev/bot/CMakeFiles/CMakeTmp' 나감
+gmake: *** [Makefile:127: cmTC_5a090/fast] 오류 2
+
+
+Source file was:
+
+	#include <thread>
+	int main() {
+		pthread_setname_np("ThreadName");
+		return 0;
+	}

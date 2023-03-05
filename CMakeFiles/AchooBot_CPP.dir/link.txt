@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/AchooBot_CPP.dir/src/main.cpp.o -o AchooBot_CPP  -Wl,-rpath,/home/dikodev/bot/libs/DPP/library libs/DPP/library/libdpp.so.0.1 /usr/lib/x86_64-linux-gnu/libcrypto.so /usr/lib/x86_64-linux-gnu/libssl.so /usr/lib/x86_64-linux-gnu/libz.so 
