@@ -1,3 +1,4 @@
 libs/token.h
-CMakeFiles/
+CMakeFiles/*
 .vscode/
+AchooBot_CPP
