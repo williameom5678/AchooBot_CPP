@@ -2,3 +2,9 @@ src/token.h
 CMakeFiles/*
 .vscode/
 AchooBot_CPP
+CPackSourceConfig.cmake
+CPackConfig.cmake
+CMakeCache.txt
+cmake_install.cmake
+dpp.pc
+compile_commands.json
