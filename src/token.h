@@ -1,1 +1,0 @@
-const std::string BOT_TOKEN = "MTA4MTgyODM0NjI1NTY1OTA4OA.GoIOFY.mQRq25xUUutjkmi5Ji6xlEUSWEq3NvVvBemnPU";
